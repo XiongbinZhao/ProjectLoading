@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EA10AF620F983A9000BC0DE /* AngularGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA10AF520F983A9000BC0DE /* AngularGradientLayer.swift */; };
 		5EC6517F20F450AB006D5966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6517E20F450AB006D5966 /* AppDelegate.swift */; };
 		5EC6518120F450AB006D5966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6518020F450AB006D5966 /* ViewController.swift */; };
 		5EC6518420F450AB006D5966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC6518220F450AB006D5966 /* Main.storyboard */; };
 		5EC6518620F450AD006D5966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC6518520F450AD006D5966 /* Assets.xcassets */; };
 		5EC6518920F450AD006D5966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC6518720F450AD006D5966 /* LaunchScreen.storyboard */; };
+		5EC6519120F45B34006D5966 /* CircularLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6519020F45B34006D5966 /* CircularLoadingIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EA10AF520F983A9000BC0DE /* AngularGradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientLayer.swift; sourceTree = "<group>"; };
 		5EC6517B20F450AB006D5966 /* ProjectLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC6517E20F450AB006D5966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC6518020F450AB006D5966 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		5EC6518520F450AD006D5966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EC6518820F450AD006D5966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC6518A20F450AD006D5966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC6519020F45B34006D5966 /* CircularLoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLoadingIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		5EC6517D20F450AB006D5966 /* ProjectLoading */ = {
 			isa = PBXGroup;
 			children = (
+				5EC6519220F45B38006D5966 /* CircularLoadingIndicator */,
 				5EC6517E20F450AB006D5966 /* AppDelegate.swift */,
 				5EC6518020F450AB006D5966 /* ViewController.swift */,
 				5EC6518220F450AB006D5966 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				5EC6518A20F450AD006D5966 /* Info.plist */,
 			);
 			path = ProjectLoading;
+			sourceTree = "<group>";
+		};
+		5EC6519220F45B38006D5966 /* CircularLoadingIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6519020F45B34006D5966 /* CircularLoadingIndicator.swift */,
+				5EA10AF520F983A9000BC0DE /* AngularGradientLayer.swift */,
+			);
+			path = CircularLoadingIndicator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC6519120F45B34006D5966 /* CircularLoadingIndicator.swift in Sources */,
 				5EC6518120F450AB006D5966 /* ViewController.swift in Sources */,
+				5EA10AF620F983A9000BC0DE /* AngularGradientLayer.swift in Sources */,
 				5EC6517F20F450AB006D5966 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
