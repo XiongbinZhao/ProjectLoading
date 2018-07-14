@@ -18,6 +18,10 @@ class ViewController: UIViewController {
                                                  lineWidth: 2)
         loadingIndicator.startAnimating()
         view.addSubview(loadingIndicator)
+        
+        let expandingDotLoadingIndicator = ExpandingDotLoadingIndicator(frame: CGRect(x: 100, y: 100, width: 50, height: 50))
+        expandingDotLoadingIndicator.startAnimating()
+        view.addSubview(expandingDotLoadingIndicator)
     }
 
     override func didReceiveMemoryWarning() {
