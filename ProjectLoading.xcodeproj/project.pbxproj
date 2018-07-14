@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5EA10AF620F983A9000BC0DE /* AngularGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA10AF520F983A9000BC0DE /* AngularGradientLayer.swift */; };
+		5EA10AFA20F987C4000BC0DE /* CircularLoadingIndicator.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5EA10AF920F987C4000BC0DE /* CircularLoadingIndicator.gif */; };
 		5EC6517F20F450AB006D5966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6517E20F450AB006D5966 /* AppDelegate.swift */; };
 		5EC6518120F450AB006D5966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6518020F450AB006D5966 /* ViewController.swift */; };
 		5EC6518420F450AB006D5966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC6518220F450AB006D5966 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		5EA10AF520F983A9000BC0DE /* AngularGradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientLayer.swift; sourceTree = "<group>"; };
+		5EA10AF920F987C4000BC0DE /* CircularLoadingIndicator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CircularLoadingIndicator.gif; sourceTree = "<group>"; };
 		5EC6517B20F450AB006D5966 /* ProjectLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC6517E20F450AB006D5966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC6518020F450AB006D5966 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		5EC6519220F45B38006D5966 /* CircularLoadingIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				5EA10AF920F987C4000BC0DE /* CircularLoadingIndicator.gif */,
 				5EC6519020F45B34006D5966 /* CircularLoadingIndicator.swift */,
 				5EA10AF520F983A9000BC0DE /* AngularGradientLayer.swift */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA10AFA20F987C4000BC0DE /* CircularLoadingIndicator.gif in Resources */,
 				5EC6518920F450AD006D5966 /* LaunchScreen.storyboard in Resources */,
 				5EC6518620F450AD006D5966 /* Assets.xcassets in Resources */,
 				5EC6518420F450AB006D5966 /* Main.storyboard in Resources */,
